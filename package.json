@@ -1,0 +1,47 @@
+{
+  "name": "pav",
+  "version": "0.0.1",
+  "description": "A personal card for Pavan Jadhaw (@pavanjadhaw)",
+  "author": "Pavan Jadhaw <@pavanjadhaw>",
+  "license": "MIT",
+  "main": "app/src/bin/card.js",
+  "bin": {
+    "pav": "app/src/bin/card.js"
+  },
+  "files": [
+    "app/src/bin/card.js",
+    "app/src/output"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "prepare": "node app/build.js",
+    "start": "node app/src/bin/card.js",
+    "dev": "npm run prepare && npm start",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavanjadhaw"
+  },
+  "keywords": [
+    "namecard",
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "envs": [
+      "node"
+    ]
+  }
+}

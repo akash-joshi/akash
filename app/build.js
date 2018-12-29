@@ -24,7 +24,7 @@ const data = {
   npm: chalk.gray('https://npmjs.com/') + chalk.red(handle),
   github: chalk.gray('https://github.com/') + chalk.green(handle),
   web: chalk.cyan('https://pavanjadhaw.me'),
-  npx: chalk.red('npx') + ' ' + chalk.white('pavanjadhaw'),
+  npx: chalk.red('npx') + ' ' + chalk.white('pav'),
   labelWork: chalk.white.bold('    Current:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),

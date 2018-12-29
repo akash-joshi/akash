@@ -10,4 +10,4 @@ npx pav
 
 ### Thanks to
 
-[bnb](https://github.com/bnb) for showing us his [namecard](https://github.com/bnb/bitandbang)
+[bnb](https://github.com/bnb) for showing us his awesome [namecard](https://github.com/bnb/bitandbang)

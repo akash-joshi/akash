@@ -1,8 +1,8 @@
 {
-  "name": "pav",
-  "version": "0.0.1",
-  "description": "A personal card for Pavan Jadhaw (@pavanjadhaw)",
-  "author": "Pavan Jadhaw <@pavanjadhaw>",
+  "name": "joshi",
+  "version": "0.0.3",
+  "description": "A personal card for Akash Joshi",
+  "author": "Akash Joshi",
   "license": "MIT",
   "main": "app/src/bin/card.js",
   "bin": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pavanjadhaw"
+    "url": "https://github.com/akash-joshi"
   },
   "keywords": [
     "namecard",

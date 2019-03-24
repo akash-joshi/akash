@@ -3,7 +3,7 @@
 My npm namecard
 
 ```console
-npx pav
+npx joshi
 ```
 
 ---

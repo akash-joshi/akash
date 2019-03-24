@@ -11,20 +11,17 @@ const options = {
   borderStyle: 'round',
 };
 
-const handle = 'pavanjadhaw';
-
 const data = {
-  name: chalk.bold.white('               Pavan Jadhaw'),
-  handle: chalk.white('@' + handle),
-  work: chalk.white('CS Undergrad'),
+  name: chalk.bold.white('                      Akash Joshi'),
+  work: chalk.white('Full Stack & Open Source Developer'),
   opensource: chalk.bold.white(
-    'Trying my best to give back to awesome community'
+    'Working with thedevs & other awesome communities'
   ),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan(handle),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red(handle),
-  github: chalk.gray('https://github.com/') + chalk.green(handle),
-  web: chalk.cyan('https://pavanjadhaw.me'),
-  npx: chalk.red('npx') + ' ' + chalk.white('pav'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('akashtrikon'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('akash-joshi'),
+  github: chalk.gray('https://github.com/') + chalk.green('akash-joshi'),
+  web: chalk.cyan('https://akashj.pw'),
+  npx: chalk.red('npx') + ' ' + chalk.white('joshi'),
   labelWork: chalk.white.bold('    Current:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
@@ -35,7 +32,7 @@ const data = {
 };
 
 const newline = '\n';
-const heading = `${data.name} / ${data.handle}`;
+const heading = `${data.name}`;
 const working = `${data.labelWork}  ${data.work}`;
 const opensourcing = `${data.labelOpenSource}  ${data.opensource}`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
